@@ -1,6 +1,6 @@
 ---
 
-- hosts: delphi
+- hosts: all
   vars_prompt:
     - name: updown
       prompt: "Would you like this script to enable or disable this rule?\n1- enable\n2- disable\n"
