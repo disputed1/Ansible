@@ -39,6 +39,6 @@
         zone: public
         port: "{{ portnumber }}/{{ proto }}"
         permanent: true
-        state: enabled
+        state: "{{ app }}"
         immediate: yes
       become: yes
